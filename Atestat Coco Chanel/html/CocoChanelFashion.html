@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title> Coco Chanel </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- <link rel="stylesheet" type = "text/css" href = "../css/fashion.css"> -->
+		
+		<header>
+			<h1 style = "text-align:center;"> Coco Chanel </h1>
+		</header>
+        <style type = "text/css">
+            article{
+				padding: 1em;
+				overflow: hidden;
+			}
+			.pt-2{
+				padding: 3em;
+			}
+			
+			.wrapper{
+				width: 95%;
+				overflow: hidden;
+				margin: 20px auto;
+				padding: 20px 0px;
+			}
+			
+			.wrapper ul{
+				padding: 0px;
+				margin: 0px;
+			}
+			
+			.wrapper ul li{
+				list-style: none;
+				float: left;
+				width: 20%;
+				height: 300px;
+				margin: 20px 20px 0px 40px;
+				box-sizing: border-box;
+				border: 2px solid black;
+				overflow: auto;
+			}
+
+			.wrapper ul li .titlu{
+				width: 100%;
+				height: 50px;
+				line-height: 50px;
+				text-align:center;
+				background: black;
+				text-color: white;
+			}
+			
+			.iframe-container{
+				position: relative;
+				width: 100%;
+				height: 0;
+			}
+			
+			.iframe-container img{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+			
+			#more{
+				display: none;
+			}
+			
+        </style>
+    </head>
+    <body>
+		<article>
+			<nav class = "navbar navbar-inverse">
+				<ul class = "nav navbar-nav">
+					<li class = "active"><a href = "CocoChanelIntro.html">Home</a></li>
+					<li><a href = "CocoChanelIstorie.html">Istorie</a></li>
+					<li><a href = "CocoChanelFashion.html">Fashion</a></li>
+					<li><a href = "CocoChanelGalerie.html">Galerie foto</a></li>
+				</ul>
+			</nav>
+			<p>
+				<img src = "..\media\dantela.png" style = "float:top; width: 100%;"
+			</p>
+			
+			<div class = "wrapper">
+				<ul>
+					<li> 
+						<div class = "titlu"> No. 5 (1921) </div> 
+						<div class = "iframe-container">
+							<img src="..\media\No5din1921.jpg">
+						</div>
+						<!-- <a class = "nav-link active" data-toggle = "tab" href = "#chimie" > Read more... </a> -->
+					</li>
+					<li> 
+						<div class = "titlu"> Parfumuri </div> 
+						<p> În 1921 se lansează pe piața parfumurilor convinsă că parfumurile pe bază de flori și mosc nu au viitor. Chimistul Ernest Beaux prepară o esență sintetică pe bază de aldehide și zahăr fermentat. Chimistul pregătește o gamă întreagă de parfumuri care este atent examinată de Chanel. Parfumurile apar în niște sticluțe numerotate de la 1 la 5 și de la 20 la 24. Stilista a ales două parfumuri, dar până la urmă a rămas numărul 5 căruia nu i-a schimbat numele. Numele "Chanel n°5" a fost un șoc în acea epocă în care parfumurile aveau nume imaginare și fantastice. Șocul mai mare a fost însă confecția sticlei, nonconformistă, o sticlă dreptunghiulară de cristal transparent. În scurt timp Chanel n°5 devine parfumul cel mai vândut în lume. </p>
+						<p> Coco Chanel a creat și alte parfumuri: Cuir de Russie, Gardenia și n° 22. </p>
+						<!--
+						<a id = "read" type = "button" onclick = "citeste()" > Read more... </a>
+						
+						<script type = "text/javascript">
+							var i = 0;
+							if(!i){
+								document.getElementById("more").style.display = "inline";
+								document.getElementById("dots").style.display = "none";
+								document.getElementById("read").innerHTML = "Read less";
+							}
+						
+						</script>
+						-->
+					</li>
+					<li>
+						<div class = "titlu"> Arta cusutului </div> 
+						<div class = "iframe-container">
+							<iframe width="99%" height="99%" src="https://www.youtube.com/embed/zgUCRGJkQhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+						</div>
+					</li>
+					<li> 
+						<div class = "titlu"> Filme și cărți </div> 
+						<p> Filme: </p>
+						<div>
+							<p> Coco Chanel (2008) </p>
+							<p> Coco avant Chanel (2009) </p>
+							<p> Coco Chanel & Igor Stravinsky (2009) </p>
+						</div>  
+						<p> Cărți: </p>
+						<div>
+							<p> "Coco Chanel" de Edmonde Charles-Roux</p>
+							<p> "Coco Chanel: The Illustrated World of a Fashion Icon" de Megan Hess </p>
+						</div>  
+
+						<!-- <a class = "nav-link active" data-toggle = "tab" href = "#chimie" > Read more... </a> -->
+					</li>
+				</ul>
+			</div>
+			
+		</article>
+    </body>
+</html>
